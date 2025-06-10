@@ -1,0 +1,1082 @@
+{
+  "5000": {
+    "position_3": {
+      "accuracy": 0.7,
+      "accuracy_std": 0.45825756949558394,
+      "entropy_mean": 0.5520765057867393,
+      "entropy_std": 0.5158477746048444,
+      "max_prob_mean": 0.775105678498745,
+      "max_prob_std": 0.23455879909713803,
+      "top5_prob_mean": 0.9930438004732132,
+      "top5_prob_std": 0.015816881586982082,
+      "num_samples": 500
+    },
+    "position_4": {
+      "accuracy": 0.794,
+      "accuracy_std": 0.40443046373882374,
+      "entropy_mean": 0.32756609860574826,
+      "entropy_std": 0.42597852824325705,
+      "max_prob_mean": 0.8532637674212455,
+      "max_prob_std": 0.20790777538569463,
+      "top5_prob_mean": 0.9982840747833251,
+      "top5_prob_std": 0.0038919934748326895,
+      "num_samples": 500
+    },
+    "position_5": {
+      "accuracy": 0.8842975206611571,
+      "accuracy_std": 0.31986780959278727,
+      "entropy_mean": 0.2009220141057982,
+      "entropy_std": 0.34016010437364547,
+      "max_prob_mean": 0.9066674540193941,
+      "max_prob_std": 0.1758888587182247,
+      "top5_prob_mean": 0.9992473596712118,
+      "top5_prob_std": 0.0012884546877006075,
+      "num_samples": 363
+    },
+    "position_6": {
+      "accuracy": 0.9209302325581395,
+      "accuracy_std": 0.269847622406703,
+      "entropy_mean": 0.12033376390477209,
+      "entropy_std": 0.25117963228939605,
+      "max_prob_mean": 0.9479126266268797,
+      "max_prob_std": 0.1295840619464178,
+      "top5_prob_mean": 0.9993223805760229,
+      "top5_prob_std": 0.001109628814288607,
+      "num_samples": 215
+    },
+    "position_7": {
+      "accuracy": 0.9368421052631579,
+      "accuracy_std": 0.24324673701665983,
+      "entropy_mean": 0.07551516741024036,
+      "entropy_std": 0.16651860383186978,
+      "max_prob_mean": 0.9727297431544254,
+      "max_prob_std": 0.08069489865055304,
+      "top5_prob_mean": 0.9994718532813223,
+      "top5_prob_std": 0.0008354180146945347,
+      "num_samples": 95
+    },
+    "position_8": {
+      "accuracy": 0.926829268292683,
+      "accuracy_std": 0.260416542732471,
+      "entropy_mean": 0.07494030023709213,
+      "entropy_std": 0.1607321392220592,
+      "max_prob_mean": 0.9718170209628779,
+      "max_prob_std": 0.08372829978545233,
+      "top5_prob_mean": 0.9996531896474885,
+      "top5_prob_std": 0.00029415155601312815,
+      "num_samples": 41
+    },
+    "position_10": {
+      "accuracy": 1.0,
+      "accuracy_std": 0.0,
+      "entropy_mean": 0.10164856072515249,
+      "entropy_std": 0.1560897572785016,
+      "max_prob_mean": 0.9689897894859314,
+      "max_prob_std": 0.051664790780746574,
+      "top5_prob_mean": 0.9997579455375671,
+      "top5_prob_std": 7.308191828321295e-05,
+      "num_samples": 4
+    },
+    "position_12": {
+      "accuracy": 0.0,
+      "accuracy_std": 0.0,
+      "entropy_mean": NaN,
+      "entropy_std": NaN,
+      "max_prob_mean": NaN,
+      "max_prob_std": NaN,
+      "top5_prob_mean": NaN,
+      "top5_prob_std": NaN,
+      "num_samples": 0
+    }
+  },
+  "10000": {
+    "position_3": {
+      "accuracy": 0.662,
+      "accuracy_std": 0.4730285403651665,
+      "entropy_mean": 0.5164957351132762,
+      "entropy_std": 0.49586526728429237,
+      "max_prob_mean": 0.7843186897933483,
+      "max_prob_std": 0.22985126362072272,
+      "top5_prob_mean": 0.9955499057769776,
+      "top5_prob_std": 0.011984666388837568,
+      "num_samples": 500
+    },
+    "position_4": {
+      "accuracy": 0.778,
+      "accuracy_std": 0.4155911452377204,
+      "entropy_mean": 0.3042223930057371,
+      "entropy_std": 0.4140217860497773,
+      "max_prob_mean": 0.8613542400598526,
+      "max_prob_std": 0.20307758791125594,
+      "top5_prob_mean": 0.9987387096881867,
+      "top5_prob_std": 0.006071326555085092,
+      "num_samples": 500
+    },
+    "position_5": {
+      "accuracy": 0.8622589531680441,
+      "accuracy_std": 0.3446279890687824,
+      "entropy_mean": 0.17613409343993383,
+      "entropy_std": 0.3140447701280334,
+      "max_prob_mean": 0.9182035712827993,
+      "max_prob_std": 0.15993467117141183,
+      "top5_prob_mean": 0.999549083965869,
+      "top5_prob_std": 0.0007231607725716289,
+      "num_samples": 363
+    },
+    "position_6": {
+      "accuracy": 0.9023255813953488,
+      "accuracy_std": 0.2968739236694502,
+      "entropy_mean": 0.09862900314159519,
+      "entropy_std": 0.22041551142965635,
+      "max_prob_mean": 0.9596906804761222,
+      "max_prob_std": 0.10845229072366988,
+      "top5_prob_mean": 0.9995922401893971,
+      "top5_prob_std": 0.0007427983547506936,
+      "num_samples": 215
+    },
+    "position_7": {
+      "accuracy": 0.9368421052631579,
+      "accuracy_std": 0.24324673701665986,
+      "entropy_mean": 0.05036752097872331,
+      "entropy_std": 0.13302958119499697,
+      "max_prob_mean": 0.9844207562898335,
+      "max_prob_std": 0.05622133862637147,
+      "top5_prob_mean": 0.9995749009282966,
+      "top5_prob_std": 0.0013457489693800126,
+      "num_samples": 95
+    },
+    "position_8": {
+      "accuracy": 0.9024390243902439,
+      "accuracy_std": 0.29672012342918147,
+      "entropy_mean": 0.07629174878962747,
+      "entropy_std": 0.16892003103684633,
+      "max_prob_mean": 0.9714212635668312,
+      "max_prob_std": 0.07919142831527301,
+      "top5_prob_mean": 0.9997752628675322,
+      "top5_prob_std": 0.00021578620045630215,
+      "num_samples": 41
+    },
+    "position_10": {
+      "accuracy": 1.0,
+      "accuracy_std": 0.0,
+      "entropy_mean": 0.12341083318460733,
+      "entropy_std": 0.20712172610020024,
+      "max_prob_mean": 0.9531097859144211,
+      "max_prob_std": 0.08059798804577396,
+      "top5_prob_mean": 0.999929815530777,
+      "top5_prob_std": 3.4053206072169156e-05,
+      "num_samples": 4
+    },
+    "position_12": {
+      "accuracy": 0.0,
+      "accuracy_std": 0.0,
+      "entropy_mean": NaN,
+      "entropy_std": NaN,
+      "max_prob_mean": NaN,
+      "max_prob_std": NaN,
+      "top5_prob_mean": NaN,
+      "top5_prob_std": NaN,
+      "num_samples": 0
+    }
+  },
+  "20000": {
+    "position_3": {
+      "accuracy": 0.69,
+      "accuracy_std": 0.46249324319388707,
+      "entropy_mean": 0.49596952794870597,
+      "entropy_std": 0.49584208233825117,
+      "max_prob_mean": 0.787959877461195,
+      "max_prob_std": 0.22986410889689393,
+      "top5_prob_mean": 0.9963862657546997,
+      "top5_prob_std": 0.01243825304164562,
+      "num_samples": 500
+    },
+    "position_4": {
+      "accuracy": 0.79,
+      "accuracy_std": 0.40730823708832603,
+      "entropy_mean": 0.2876995161449013,
+      "entropy_std": 0.39840378504777635,
+      "max_prob_mean": 0.8663480498194694,
+      "max_prob_std": 0.19738509645707528,
+      "top5_prob_mean": 0.9993813982009888,
+      "top5_prob_std": 0.0015264524696868716,
+      "num_samples": 500
+    },
+    "position_5": {
+      "accuracy": 0.8677685950413223,
+      "accuracy_std": 0.3387421740813091,
+      "entropy_mean": 0.15961267876845447,
+      "entropy_std": 0.30237647784315547,
+      "max_prob_mean": 0.9234825001603644,
+      "max_prob_std": 0.15957050481576351,
+      "top5_prob_mean": 0.9997097782523836,
+      "top5_prob_std": 0.0005869600380056906,
+      "num_samples": 363
+    },
+    "position_6": {
+      "accuracy": 0.9116279069767442,
+      "accuracy_std": 0.2838352800445089,
+      "entropy_mean": 0.09192959811206133,
+      "entropy_std": 0.22227788209023341,
+      "max_prob_mean": 0.9603473983531774,
+      "max_prob_std": 0.11270015969305024,
+      "top5_prob_mean": 0.9996589599653732,
+      "top5_prob_std": 0.0010550318817734434,
+      "num_samples": 215
+    },
+    "position_7": {
+      "accuracy": 0.9368421052631579,
+      "accuracy_std": 0.24324673701665986,
+      "entropy_mean": 0.04615749128677539,
+      "entropy_std": 0.12022848958376925,
+      "max_prob_mean": 0.9878952641236155,
+      "max_prob_std": 0.04152106750302854,
+      "top5_prob_mean": 0.9995109413799487,
+      "top5_prob_std": 0.001906774105812156,
+      "num_samples": 95
+    },
+    "position_8": {
+      "accuracy": 0.9024390243902439,
+      "accuracy_std": 0.29672012342918147,
+      "entropy_mean": 0.03647548158080942,
+      "entropy_std": 0.10889140880354285,
+      "max_prob_mean": 0.9884145637837852,
+      "max_prob_std": 0.045003392798093046,
+      "top5_prob_mean": 0.9998945026862912,
+      "top5_prob_std": 0.00011595698265646684,
+      "num_samples": 41
+    },
+    "position_10": {
+      "accuracy": 0.75,
+      "accuracy_std": 0.4330127018922193,
+      "entropy_mean": 0.1625926679407712,
+      "entropy_std": 0.2782212819828424,
+      "max_prob_mean": 0.9137921035289764,
+      "max_prob_std": 0.14900451268120485,
+      "top5_prob_mean": 0.9999779015779495,
+      "top5_prob_std": 8.558651573894308e-06,
+      "num_samples": 4
+    },
+    "position_12": {
+      "accuracy": 0.0,
+      "accuracy_std": 0.0,
+      "entropy_mean": NaN,
+      "entropy_std": NaN,
+      "max_prob_mean": NaN,
+      "max_prob_std": NaN,
+      "top5_prob_mean": NaN,
+      "top5_prob_std": NaN,
+      "num_samples": 0
+    }
+  },
+  "30000": {
+    "position_3": {
+      "accuracy": 0.676,
+      "accuracy_std": 0.4680000000000001,
+      "entropy_mean": 0.5342987634299788,
+      "entropy_std": 0.5100288972976654,
+      "max_prob_mean": 0.7676254570782185,
+      "max_prob_std": 0.23833685894883216,
+      "top5_prob_mean": 0.9957508133649826,
+      "top5_prob_std": 0.015110118638754735,
+      "num_samples": 500
+    },
+    "position_4": {
+      "accuracy": 0.792,
+      "accuracy_std": 0.4058768286069063,
+      "entropy_mean": 0.28710236793168586,
+      "entropy_std": 0.39910351024958174,
+      "max_prob_mean": 0.8647057067155838,
+      "max_prob_std": 0.1991984424570803,
+      "top5_prob_mean": 0.999383060336113,
+      "top5_prob_std": 0.001920800830905804,
+      "num_samples": 500
+    },
+    "position_5": {
+      "accuracy": 0.8787878787878788,
+      "accuracy_std": 0.3263736246748184,
+      "entropy_mean": 0.1597792814661835,
+      "entropy_std": 0.30028903364344794,
+      "max_prob_mean": 0.9237656214020469,
+      "max_prob_std": 0.1567042958819435,
+      "top5_prob_mean": 0.9996437308873684,
+      "top5_prob_std": 0.0010245273618756086,
+      "num_samples": 363
+    },
+    "position_6": {
+      "accuracy": 0.9023255813953488,
+      "accuracy_std": 0.29687392366945015,
+      "entropy_mean": 0.0992855747601594,
+      "entropy_std": 0.24571755264363965,
+      "max_prob_mean": 0.9551399210164714,
+      "max_prob_std": 0.12519458364661454,
+      "top5_prob_mean": 0.999697007966596,
+      "top5_prob_std": 0.0009524022897303755,
+      "num_samples": 215
+    },
+    "position_7": {
+      "accuracy": 0.9368421052631579,
+      "accuracy_std": 0.24324673701665986,
+      "entropy_mean": 0.031848359878992934,
+      "entropy_std": 0.09491516644585188,
+      "max_prob_mean": 0.9902014355910452,
+      "max_prob_std": 0.04846211721423437,
+      "top5_prob_mean": 0.9998007535934448,
+      "top5_prob_std": 0.0007045904047249166,
+      "num_samples": 95
+    },
+    "position_8": {
+      "accuracy": 0.9024390243902439,
+      "accuracy_std": 0.29672012342918147,
+      "entropy_mean": 0.04073101571276954,
+      "entropy_std": 0.11047782129661665,
+      "max_prob_mean": 0.9892570303707588,
+      "max_prob_std": 0.03723807693501755,
+      "top5_prob_mean": 0.999652987573205,
+      "top5_prob_std": 0.0012631234496352263,
+      "num_samples": 41
+    },
+    "position_10": {
+      "accuracy": 1.0,
+      "accuracy_std": 0.0,
+      "entropy_mean": 0.1673816873008036,
+      "entropy_std": 0.2868000733614042,
+      "max_prob_mean": 0.9116550534963608,
+      "max_prob_std": 0.15273483480818784,
+      "top5_prob_mean": 0.9997892826795578,
+      "top5_prob_std": 0.0003112433454479036,
+      "num_samples": 4
+    },
+    "position_12": {
+      "accuracy": 0.0,
+      "accuracy_std": 0.0,
+      "entropy_mean": NaN,
+      "entropy_std": NaN,
+      "max_prob_mean": NaN,
+      "max_prob_std": NaN,
+      "top5_prob_mean": NaN,
+      "top5_prob_std": NaN,
+      "num_samples": 0
+    }
+  },
+  "40000": {
+    "position_3": {
+      "accuracy": 0.666,
+      "accuracy_std": 0.47163969298607594,
+      "entropy_mean": 0.4549474586918077,
+      "entropy_std": 0.4835325267150676,
+      "max_prob_mean": 0.8011761385202408,
+      "max_prob_std": 0.2270248191705108,
+      "top5_prob_mean": 0.9975966515541077,
+      "top5_prob_std": 0.010467955733430906,
+      "num_samples": 500
+    },
+    "position_4": {
+      "accuracy": 0.788,
+      "accuracy_std": 0.408724846320847,
+      "entropy_mean": 0.270977233594984,
+      "entropy_std": 0.3914821909598188,
+      "max_prob_mean": 0.8720075424909591,
+      "max_prob_std": 0.19575091981206358,
+      "top5_prob_mean": 0.9996989188194275,
+      "top5_prob_std": 0.0006702535531409926,
+      "num_samples": 500
+    },
+    "position_5": {
+      "accuracy": 0.8760330578512396,
+      "accuracy_std": 0.3295438353285436,
+      "entropy_mean": 0.1466707831404623,
+      "entropy_std": 0.2920793024153869,
+      "max_prob_mean": 0.9297019971467904,
+      "max_prob_std": 0.15353552395719883,
+      "top5_prob_mean": 0.9998355709816799,
+      "top5_prob_std": 0.0006567393762014155,
+      "num_samples": 363
+    },
+    "position_6": {
+      "accuracy": 0.9069767441860465,
+      "accuracy_std": 0.29046502318132084,
+      "entropy_mean": 0.07971190723071421,
+      "entropy_std": 0.20296840575913053,
+      "max_prob_mean": 0.9667536025823549,
+      "max_prob_std": 0.09716675406202524,
+      "top5_prob_mean": 0.9997364055278689,
+      "top5_prob_std": 0.0013610404348487425,
+      "num_samples": 215
+    },
+    "position_7": {
+      "accuracy": 0.9368421052631579,
+      "accuracy_std": 0.24324673701665986,
+      "entropy_mean": 0.05028361705530857,
+      "entropy_std": 0.13225555173670364,
+      "max_prob_mean": 0.9847677199464095,
+      "max_prob_std": 0.057121101972742554,
+      "top5_prob_mean": 0.9993330202604594,
+      "top5_prob_std": 0.0030941399835723166,
+      "num_samples": 95
+    },
+    "position_8": {
+      "accuracy": 0.9024390243902439,
+      "accuracy_std": 0.29672012342918147,
+      "entropy_mean": 0.03217180365390959,
+      "entropy_std": 0.09579932176383339,
+      "max_prob_mean": 0.9903579208909011,
+      "max_prob_std": 0.03832272126386864,
+      "top5_prob_mean": 0.9999433508733424,
+      "top5_prob_std": 9.352876330299834e-05,
+      "num_samples": 41
+    },
+    "position_10": {
+      "accuracy": 1.0,
+      "accuracy_std": 0.0,
+      "entropy_mean": 0.17090851609100355,
+      "entropy_std": 0.29489433491606964,
+      "max_prob_mean": 0.8941141963005066,
+      "max_prob_std": 0.18330949941745298,
+      "top5_prob_mean": 0.999989926815033,
+      "top5_prob_std": 6.101256749758336e-06,
+      "num_samples": 4
+    },
+    "position_12": {
+      "accuracy": 0.0,
+      "accuracy_std": 0.0,
+      "entropy_mean": NaN,
+      "entropy_std": NaN,
+      "max_prob_mean": NaN,
+      "max_prob_std": NaN,
+      "top5_prob_mean": NaN,
+      "top5_prob_std": NaN,
+      "num_samples": 0
+    }
+  },
+  "50000": {
+    "position_3": {
+      "accuracy": 0.676,
+      "accuracy_std": 0.468,
+      "entropy_mean": 0.449567011174935,
+      "entropy_std": 0.4785212205365019,
+      "max_prob_mean": 0.8005839595198632,
+      "max_prob_std": 0.22746607430896518,
+      "top5_prob_mean": 0.9978320626020432,
+      "top5_prob_std": 0.01014584077491245,
+      "num_samples": 500
+    },
+    "position_4": {
+      "accuracy": 0.784,
+      "accuracy_std": 0.41151427678757396,
+      "entropy_mean": 0.26494832976743055,
+      "entropy_std": 0.3826323719950927,
+      "max_prob_mean": 0.8762449327111245,
+      "max_prob_std": 0.18920780561622072,
+      "top5_prob_mean": 0.9997429041862488,
+      "top5_prob_std": 0.0006615858238175757,
+      "num_samples": 500
+    },
+    "position_5": {
+      "accuracy": 0.8760330578512396,
+      "accuracy_std": 0.3295438353285436,
+      "entropy_mean": 0.14358953053539836,
+      "entropy_std": 0.2865636005998439,
+      "max_prob_mean": 0.9315893489138811,
+      "max_prob_std": 0.14893338554270708,
+      "top5_prob_mean": 0.9998679180775792,
+      "top5_prob_std": 0.0005096896547629784,
+      "num_samples": 363
+    },
+    "position_6": {
+      "accuracy": 0.9069767441860465,
+      "accuracy_std": 0.29046502318132084,
+      "entropy_mean": 0.07603101026959552,
+      "entropy_std": 0.1985971385146241,
+      "max_prob_mean": 0.9690173253070477,
+      "max_prob_std": 0.09308280160788347,
+      "top5_prob_mean": 0.9997143748194672,
+      "top5_prob_std": 0.0021188630912213503,
+      "num_samples": 215
+    },
+    "position_7": {
+      "accuracy": 0.9368421052631579,
+      "accuracy_std": 0.24324673701665986,
+      "entropy_mean": 0.05086044734294103,
+      "entropy_std": 0.15251436102994329,
+      "max_prob_mean": 0.9833045514006363,
+      "max_prob_std": 0.06738022067373185,
+      "top5_prob_mean": 0.9991342851990148,
+      "top5_prob_std": 0.0044735226857383625,
+      "num_samples": 95
+    },
+    "position_8": {
+      "accuracy": 0.9024390243902439,
+      "accuracy_std": 0.29672012342918147,
+      "entropy_mean": 0.030316876633772086,
+      "entropy_std": 0.1014375186833443,
+      "max_prob_mean": 0.9899435610305972,
+      "max_prob_std": 0.04410113665671661,
+      "top5_prob_mean": 0.9999494276395658,
+      "top5_prob_std": 9.109930782884514e-05,
+      "num_samples": 41
+    },
+    "position_10": {
+      "accuracy": 0.75,
+      "accuracy_std": 0.4330127018922193,
+      "entropy_mean": 0.17363102897070348,
+      "entropy_std": 0.2997683800161795,
+      "max_prob_mean": 0.8793798834085464,
+      "max_prob_std": 0.20884329245385572,
+      "top5_prob_mean": 0.9999917447566986,
+      "top5_prob_std": 4.846979201470542e-06,
+      "num_samples": 4
+    },
+    "position_12": {
+      "accuracy": 0.0,
+      "accuracy_std": 0.0,
+      "entropy_mean": NaN,
+      "entropy_std": NaN,
+      "max_prob_mean": NaN,
+      "max_prob_std": NaN,
+      "top5_prob_mean": NaN,
+      "top5_prob_std": NaN,
+      "num_samples": 0
+    }
+  },
+  "75000": {
+    "position_3": {
+      "accuracy": 0.692,
+      "accuracy_std": 0.46166654632970755,
+      "entropy_mean": 0.5025563082968584,
+      "entropy_std": 0.5119377547516573,
+      "max_prob_mean": 0.7751738584637642,
+      "max_prob_std": 0.2417036137716822,
+      "top5_prob_mean": 0.9964953397512436,
+      "top5_prob_std": 0.015323775198253446,
+      "num_samples": 500
+    },
+    "position_4": {
+      "accuracy": 0.794,
+      "accuracy_std": 0.4044304637388237,
+      "entropy_mean": 0.28069226577445805,
+      "entropy_std": 0.40057612195106246,
+      "max_prob_mean": 0.8621309920549393,
+      "max_prob_std": 0.20502732165440304,
+      "top5_prob_mean": 0.9996517810821534,
+      "top5_prob_std": 0.0009611405124712884,
+      "num_samples": 500
+    },
+    "position_5": {
+      "accuracy": 0.8760330578512396,
+      "accuracy_std": 0.3295438353285436,
+      "entropy_mean": 0.1588950967843304,
+      "entropy_std": 0.31052485841421695,
+      "max_prob_mean": 0.9230285891159835,
+      "max_prob_std": 0.15822161129315696,
+      "top5_prob_mean": 0.9998058320405397,
+      "top5_prob_std": 0.0008022378375727513,
+      "num_samples": 363
+    },
+    "position_6": {
+      "accuracy": 0.8976744186046511,
+      "accuracy_std": 0.3030759917701379,
+      "entropy_mean": 0.08842270695562927,
+      "entropy_std": 0.2297576878028165,
+      "max_prob_mean": 0.9582808545855589,
+      "max_prob_std": 0.11879282970890026,
+      "top5_prob_mean": 0.9998823581739914,
+      "top5_prob_std": 0.00033128613427447346,
+      "num_samples": 215
+    },
+    "position_7": {
+      "accuracy": 0.9473684210526315,
+      "accuracy_std": 0.22329687826943606,
+      "entropy_mean": 0.02199384928370771,
+      "entropy_std": 0.08379622025877448,
+      "max_prob_mean": 0.991878995142485,
+      "max_prob_std": 0.0491963102975015,
+      "top5_prob_mean": 0.9999593540241843,
+      "top5_prob_std": 0.0001775612209402469,
+      "num_samples": 95
+    },
+    "position_8": {
+      "accuracy": 0.9024390243902439,
+      "accuracy_std": 0.29672012342918147,
+      "entropy_mean": 0.012743121751466278,
+      "entropy_std": 0.03604002399231215,
+      "max_prob_mean": 0.9975364760654729,
+      "max_prob_std": 0.008075392020929013,
+      "top5_prob_mean": 0.9999573361582872,
+      "top5_prob_std": 7.315521359350153e-05,
+      "num_samples": 41
+    },
+    "position_10": {
+      "accuracy": 1.0,
+      "accuracy_std": 0.0,
+      "entropy_mean": 0.0502516278938856,
+      "entropy_std": 0.08183873151497648,
+      "max_prob_mean": 0.987926721572876,
+      "max_prob_std": 0.02036926575766955,
+      "top5_prob_mean": 0.9999787658452988,
+      "top5_prob_std": 1.6060514117319127e-05,
+      "num_samples": 4
+    },
+    "position_12": {
+      "accuracy": 0.0,
+      "accuracy_std": 0.0,
+      "entropy_mean": NaN,
+      "entropy_std": NaN,
+      "max_prob_mean": NaN,
+      "max_prob_std": NaN,
+      "top5_prob_mean": NaN,
+      "top5_prob_std": NaN,
+      "num_samples": 0
+    }
+  },
+  "90000": {
+    "position_3": {
+      "accuracy": 0.684,
+      "accuracy_std": 0.46491289506745237,
+      "entropy_mean": 0.4994054629644379,
+      "entropy_std": 0.5089845784509763,
+      "max_prob_mean": 0.7740391119122505,
+      "max_prob_std": 0.24142022287301831,
+      "top5_prob_mean": 0.9966470538377762,
+      "top5_prob_std": 0.015266178996869951,
+      "num_samples": 500
+    },
+    "position_4": {
+      "accuracy": 0.798,
+      "accuracy_std": 0.4014922166119787,
+      "entropy_mean": 0.2710170899692093,
+      "entropy_std": 0.39221450155310944,
+      "max_prob_mean": 0.8670892653465271,
+      "max_prob_std": 0.20138222474746828,
+      "top5_prob_mean": 0.9997140220403671,
+      "top5_prob_std": 0.0008989179225329121,
+      "num_samples": 500
+    },
+    "position_5": {
+      "accuracy": 0.8650137741046832,
+      "accuracy_std": 0.34170885957764585,
+      "entropy_mean": 0.1545116996584669,
+      "entropy_std": 0.3050668162090475,
+      "max_prob_mean": 0.9236838249464009,
+      "max_prob_std": 0.15872612805018485,
+      "top5_prob_mean": 0.9998338779142081,
+      "top5_prob_std": 0.000774130769649829,
+      "num_samples": 363
+    },
+    "position_6": {
+      "accuracy": 0.8976744186046511,
+      "accuracy_std": 0.3030759917701379,
+      "entropy_mean": 0.08373991628485423,
+      "entropy_std": 0.21844211192799007,
+      "max_prob_mean": 0.9613554969776509,
+      "max_prob_std": 0.111965843831249,
+      "top5_prob_mean": 0.9998920997907949,
+      "top5_prob_std": 0.0003644436673668496,
+      "num_samples": 215
+    },
+    "position_7": {
+      "accuracy": 0.9368421052631579,
+      "accuracy_std": 0.24324673701665986,
+      "entropy_mean": 0.02081435060662395,
+      "entropy_std": 0.08075174470293121,
+      "max_prob_mean": 0.9931477345918355,
+      "max_prob_std": 0.038650385742564776,
+      "top5_prob_mean": 0.999964293680693,
+      "top5_prob_std": 0.00015906267634930462,
+      "num_samples": 95
+    },
+    "position_8": {
+      "accuracy": 0.9024390243902439,
+      "accuracy_std": 0.29672012342918147,
+      "entropy_mean": 0.00755242241318295,
+      "entropy_std": 0.02235645168629472,
+      "max_prob_mean": 0.9987121791374393,
+      "max_prob_std": 0.004805257358391041,
+      "top5_prob_mean": 0.999967535821403,
+      "top5_prob_std": 5.501633945163381e-05,
+      "num_samples": 41
+    },
+    "position_10": {
+      "accuracy": 1.0,
+      "accuracy_std": 0.0,
+      "entropy_mean": 0.05603408120077802,
+      "entropy_std": 0.09247056793796403,
+      "max_prob_mean": 0.9860114455223083,
+      "max_prob_std": 0.02374605488911761,
+      "top5_prob_mean": 0.9999837726354599,
+      "top5_prob_std": 1.6980021929811205e-05,
+      "num_samples": 4
+    },
+    "position_12": {
+      "accuracy": 0.0,
+      "accuracy_std": 0.0,
+      "entropy_mean": NaN,
+      "entropy_std": NaN,
+      "max_prob_mean": NaN,
+      "max_prob_std": NaN,
+      "top5_prob_mean": NaN,
+      "top5_prob_std": NaN,
+      "num_samples": 0
+    }
+  },
+  "105000": {
+    "position_3": {
+      "accuracy": 0.686,
+      "accuracy_std": 0.46411636471902173,
+      "entropy_mean": 0.4920565364739741,
+      "entropy_std": 0.5078563262544299,
+      "max_prob_mean": 0.7797280535399914,
+      "max_prob_std": 0.23886967101611264,
+      "top5_prob_mean": 0.9967914263010025,
+      "top5_prob_std": 0.016302257811242095,
+      "num_samples": 500
+    },
+    "position_4": {
+      "accuracy": 0.784,
+      "accuracy_std": 0.41151427678757396,
+      "entropy_mean": 0.26658372677959413,
+      "entropy_std": 0.3874714018125498,
+      "max_prob_mean": 0.8698389957547188,
+      "max_prob_std": 0.19844887433780498,
+      "top5_prob_mean": 0.9997726103067398,
+      "top5_prob_std": 0.0006802997973720205,
+      "num_samples": 500
+    },
+    "position_5": {
+      "accuracy": 0.8732782369146006,
+      "accuracy_std": 0.3326610254386999,
+      "entropy_mean": 0.154746860318708,
+      "entropy_std": 0.305314344570266,
+      "max_prob_mean": 0.9245221944058893,
+      "max_prob_std": 0.1568610153761788,
+      "top5_prob_mean": 0.999867059146734,
+      "top5_prob_std": 0.0005389413049957022,
+      "num_samples": 363
+    },
+    "position_6": {
+      "accuracy": 0.8930232558139535,
+      "accuracy_std": 0.30908367862020747,
+      "entropy_mean": 0.08354085850212783,
+      "entropy_std": 0.21880530576597437,
+      "max_prob_mean": 0.9616020985814028,
+      "max_prob_std": 0.10906409948910406,
+      "top5_prob_mean": 0.9999152056006498,
+      "top5_prob_std": 0.00030298665142635447,
+      "num_samples": 215
+    },
+    "position_7": {
+      "accuracy": 0.9368421052631579,
+      "accuracy_std": 0.24324673701665986,
+      "entropy_mean": 0.020834345595473057,
+      "entropy_std": 0.08736392341939041,
+      "max_prob_mean": 0.9915258288383484,
+      "max_prob_std": 0.05211287287336944,
+      "top5_prob_mean": 0.9999757779271979,
+      "top5_prob_std": 6.930108738360516e-05,
+      "num_samples": 95
+    },
+    "position_8": {
+      "accuracy": 0.9024390243902439,
+      "accuracy_std": 0.29672012342918147,
+      "entropy_mean": 0.017378951903038994,
+      "entropy_std": 0.0752200764018881,
+      "max_prob_mean": 0.9947077253969704,
+      "max_prob_std": 0.027204313274438032,
+      "top5_prob_mean": 0.9999697324706287,
+      "top5_prob_std": 5.702096754206252e-05,
+      "num_samples": 41
+    },
+    "position_10": {
+      "accuracy": 1.0,
+      "accuracy_std": 0.0,
+      "entropy_mean": 0.050342160855507245,
+      "entropy_std": 0.08334299813421785,
+      "max_prob_mean": 0.987845316529274,
+      "max_prob_std": 0.02066019597653375,
+      "top5_prob_mean": 0.9999859929084778,
+      "top5_prob_std": 1.4232660627509072e-05,
+      "num_samples": 4
+    },
+    "position_12": {
+      "accuracy": 0.0,
+      "accuracy_std": 0.0,
+      "entropy_mean": NaN,
+      "entropy_std": NaN,
+      "max_prob_mean": NaN,
+      "max_prob_std": NaN,
+      "top5_prob_mean": NaN,
+      "top5_prob_std": NaN,
+      "num_samples": 0
+    }
+  },
+  "120000": {
+    "position_3": {
+      "accuracy": 0.688,
+      "accuracy_std": 0.4633098315382483,
+      "entropy_mean": 0.47598017641255863,
+      "entropy_std": 0.4982343169045344,
+      "max_prob_mean": 0.7889264570176602,
+      "max_prob_std": 0.23108650363113395,
+      "top5_prob_mean": 0.997173150420189,
+      "top5_prob_std": 0.01526398871671726,
+      "num_samples": 500
+    },
+    "position_4": {
+      "accuracy": 0.79,
+      "accuracy_std": 0.4073082370883261,
+      "entropy_mean": 0.26225989720131476,
+      "entropy_std": 0.38436681947341567,
+      "max_prob_mean": 0.872448853969574,
+      "max_prob_std": 0.19634978363307776,
+      "top5_prob_mean": 0.9998210878372192,
+      "top5_prob_std": 0.0005098155876793978,
+      "num_samples": 500
+    },
+    "position_5": {
+      "accuracy": 0.8732782369146006,
+      "accuracy_std": 0.3326610254386999,
+      "entropy_mean": 0.1480325681489278,
+      "entropy_std": 0.298066230529393,
+      "max_prob_mean": 0.9283697681486114,
+      "max_prob_std": 0.15202902764471563,
+      "top5_prob_mean": 0.9998725353850477,
+      "top5_prob_std": 0.0006193321595150577,
+      "num_samples": 363
+    },
+    "position_6": {
+      "accuracy": 0.8930232558139535,
+      "accuracy_std": 0.30908367862020747,
+      "entropy_mean": 0.07919697897268,
+      "entropy_std": 0.21682652694204652,
+      "max_prob_mean": 0.9640241214009219,
+      "max_prob_std": 0.10771173116319793,
+      "top5_prob_mean": 0.9999083230661792,
+      "top5_prob_std": 0.0003819809037334887,
+      "num_samples": 215
+    },
+    "position_7": {
+      "accuracy": 0.9368421052631579,
+      "accuracy_std": 0.24324673701665986,
+      "entropy_mean": 0.016727416219490757,
+      "entropy_std": 0.07787909125806132,
+      "max_prob_mean": 0.993412813387419,
+      "max_prob_std": 0.045721050014370025,
+      "top5_prob_mean": 0.9999786270292181,
+      "top5_prob_std": 6.997052216320574e-05,
+      "num_samples": 95
+    },
+    "position_8": {
+      "accuracy": 0.9024390243902439,
+      "accuracy_std": 0.29672012342918147,
+      "entropy_mean": 0.014543704417665195,
+      "entropy_std": 0.0668136776340353,
+      "max_prob_mean": 0.9957006878969146,
+      "max_prob_std": 0.023197685501015107,
+      "top5_prob_mean": 0.9999765986349525,
+      "top5_prob_std": 3.802500355657363e-05,
+      "num_samples": 41
+    },
+    "position_10": {
+      "accuracy": 1.0,
+      "accuracy_std": 0.0,
+      "entropy_mean": 0.0319712192622319,
+      "entropy_std": 0.051113565270528266,
+      "max_prob_mean": 0.9934359937906265,
+      "max_prob_std": 0.010925878577598216,
+      "top5_prob_mean": 0.9999834448099136,
+      "top5_prob_std": 1.950781691807283e-05,
+      "num_samples": 4
+    },
+    "position_12": {
+      "accuracy": 0.0,
+      "accuracy_std": 0.0,
+      "entropy_mean": NaN,
+      "entropy_std": NaN,
+      "max_prob_mean": NaN,
+      "max_prob_std": NaN,
+      "top5_prob_mean": NaN,
+      "top5_prob_std": NaN,
+      "num_samples": 0
+    }
+  },
+  "135000": {
+    "position_3": {
+      "accuracy": 0.684,
+      "accuracy_std": 0.46491289506745237,
+      "entropy_mean": 0.46648089073410665,
+      "entropy_std": 0.49367350298874624,
+      "max_prob_mean": 0.7906215869784355,
+      "max_prob_std": 0.23121889737490176,
+      "top5_prob_mean": 0.9973102469444275,
+      "top5_prob_std": 0.01562589623073022,
+      "num_samples": 500
+    },
+    "position_4": {
+      "accuracy": 0.79,
+      "accuracy_std": 0.4073082370883261,
+      "entropy_mean": 0.2576753612673274,
+      "entropy_std": 0.3798035922416932,
+      "max_prob_mean": 0.874989244222641,
+      "max_prob_std": 0.19270641122138643,
+      "top5_prob_mean": 0.9998472138643265,
+      "top5_prob_std": 0.0004324215635885937,
+      "num_samples": 500
+    },
+    "position_5": {
+      "accuracy": 0.8732782369146006,
+      "accuracy_std": 0.3326610254386999,
+      "entropy_mean": 0.1449059568130405,
+      "entropy_std": 0.29369290628099276,
+      "max_prob_mean": 0.9301022183632391,
+      "max_prob_std": 0.14915202757791324,
+      "top5_prob_mean": 0.9998733414434533,
+      "top5_prob_std": 0.0007105995540506351,
+      "num_samples": 363
+    },
+    "position_6": {
+      "accuracy": 0.8976744186046511,
+      "accuracy_std": 0.3030759917701379,
+      "entropy_mean": 0.07712267084517978,
+      "entropy_std": 0.21334544515446507,
+      "max_prob_mean": 0.9645241487857907,
+      "max_prob_std": 0.10886566578576827,
+      "top5_prob_mean": 0.999897993719855,
+      "top5_prob_std": 0.00047654456773303915,
+      "num_samples": 215
+    },
+    "position_7": {
+      "accuracy": 0.9368421052631579,
+      "accuracy_std": 0.24324673701665986,
+      "entropy_mean": 0.01700669538913644,
+      "entropy_std": 0.07759714460840236,
+      "max_prob_mean": 0.9941175203574332,
+      "max_prob_std": 0.036171815246520723,
+      "top5_prob_mean": 0.999980848713925,
+      "top5_prob_std": 5.915692227272788e-05,
+      "num_samples": 95
+    },
+    "position_8": {
+      "accuracy": 0.9024390243902439,
+      "accuracy_std": 0.29672012342918147,
+      "entropy_mean": 0.015381220991868049,
+      "entropy_std": 0.07979494015376644,
+      "max_prob_mean": 0.9946037807115694,
+      "max_prob_std": 0.031691944945270424,
+      "top5_prob_mean": 0.9999787458559362,
+      "top5_prob_std": 4.6111580066758955e-05,
+      "num_samples": 41
+    },
+    "position_10": {
+      "accuracy": 1.0,
+      "accuracy_std": 0.0,
+      "entropy_mean": 0.025442313030907826,
+      "entropy_std": 0.040794703190423894,
+      "max_prob_mean": 0.9951108247041702,
+      "max_prob_std": 0.008140130311170075,
+      "top5_prob_mean": 0.9999730437994003,
+      "top5_prob_std": 3.759251703371615e-05,
+      "num_samples": 4
+    },
+    "position_12": {
+      "accuracy": 0.0,
+      "accuracy_std": 0.0,
+      "entropy_mean": NaN,
+      "entropy_std": NaN,
+      "max_prob_mean": NaN,
+      "max_prob_std": NaN,
+      "top5_prob_mean": NaN,
+      "top5_prob_std": NaN,
+      "num_samples": 0
+    }
+  },
+  "150000": {
+    "position_3": {
+      "accuracy": 0.68,
+      "accuracy_std": 0.466476151587624,
+      "entropy_mean": 0.4617350713780761,
+      "entropy_std": 0.49074574922081654,
+      "max_prob_mean": 0.7920708651840687,
+      "max_prob_std": 0.23059341540784187,
+      "top5_prob_mean": 0.9974558175802231,
+      "top5_prob_std": 0.014824864994017238,
+      "num_samples": 500
+    },
+    "position_4": {
+      "accuracy": 0.784,
+      "accuracy_std": 0.41151427678757396,
+      "entropy_mean": 0.25450472026405624,
+      "entropy_std": 0.3751816074148079,
+      "max_prob_mean": 0.876212801039219,
+      "max_prob_std": 0.191485364763043,
+      "top5_prob_mean": 0.999856910943985,
+      "top5_prob_std": 0.0004413620517569149,
+      "num_samples": 500
+    },
+    "position_5": {
+      "accuracy": 0.8787878787878788,
+      "accuracy_std": 0.3263736246748184,
+      "entropy_mean": 0.1413580125050485,
+      "entropy_std": 0.2884660067755099,
+      "max_prob_mean": 0.9324361621184126,
+      "max_prob_std": 0.14613595042109143,
+      "top5_prob_mean": 0.9998906054444221,
+      "top5_prob_std": 0.0005674805424314605,
+      "num_samples": 363
+    },
+    "position_6": {
+      "accuracy": 0.8976744186046511,
+      "accuracy_std": 0.3030759917701379,
+      "entropy_mean": 0.07338602708909474,
+      "entropy_std": 0.20474039212799922,
+      "max_prob_mean": 0.9671158755934516,
+      "max_prob_std": 0.10315345466771587,
+      "top5_prob_mean": 0.9999112328817678,
+      "top5_prob_std": 0.0004129652019018516,
+      "num_samples": 215
+    },
+    "position_7": {
+      "accuracy": 0.9368421052631579,
+      "accuracy_std": 0.24324673701665986,
+      "entropy_mean": 0.01702874064157138,
+      "entropy_std": 0.0802382570119229,
+      "max_prob_mean": 0.9935217750699896,
+      "max_prob_std": 0.04220876361248235,
+      "top5_prob_mean": 0.9999831174549304,
+      "top5_prob_std": 5.104679591348539e-05,
+      "num_samples": 95
+    },
+    "position_8": {
+      "accuracy": 0.9024390243902439,
+      "accuracy_std": 0.29672012342918147,
+      "entropy_mean": 0.015595018418358317,
+      "entropy_std": 0.08303431213444294,
+      "max_prob_mean": 0.9941865365679671,
+      "max_prob_std": 0.03477682009839756,
+      "top5_prob_mean": 0.9999801414768871,
+      "top5_prob_std": 4.064058216823359e-05,
+      "num_samples": 41
+    },
+    "position_10": {
+      "accuracy": 1.0,
+      "accuracy_std": 0.0,
+      "entropy_mean": 0.023643677584914258,
+      "entropy_std": 0.03606252601626012,
+      "max_prob_mean": 0.995647206902504,
+      "max_prob_std": 0.007011673281271928,
+      "top5_prob_mean": 0.9999742209911346,
+      "top5_prob_std": 3.6597458177941925e-05,
+      "num_samples": 4
+    },
+    "position_12": {
+      "accuracy": 0.0,
+      "accuracy_std": 0.0,
+      "entropy_mean": NaN,
+      "entropy_std": NaN,
+      "max_prob_mean": NaN,
+      "max_prob_std": NaN,
+      "top5_prob_mean": NaN,
+      "top5_prob_std": NaN,
+      "num_samples": 0
+    }
+  }
+}
