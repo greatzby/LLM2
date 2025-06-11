@@ -136,3 +136,69 @@ transformer.h.0.attn.c_proj.weight: norm=3.4320, mean=0.0000, std=0.0286
 transformer.h.0.mlp.c_fc.weight: norm=8.9663, mean=0.0002, std=0.0374
 transformer.h.0.mlp.c_proj.weight: norm=7.9520, mean=0.0001, std=0.0331
 
+Iteration 0
+transformer.h.0.attn.c_attn.weight: norm=4.1316, mean=0.0002, std=0.0199
+transformer.h.0.attn.c_proj.weight: norm=1.6942, mean=0.0001, std=0.0141
+transformer.h.0.mlp.c_fc.weight: norm=4.7965, mean=0.0001, std=0.0200
+transformer.h.0.mlp.c_proj.weight: norm=3.3931, mean=-0.0001, std=0.0141
+
+Iteration 20000
+transformer.h.0.attn.c_attn.weight: norm=8.4262, mean=0.0001, std=0.0405
+transformer.h.0.attn.c_proj.weight: norm=3.5097, mean=0.0001, std=0.0292
+transformer.h.0.mlp.c_fc.weight: norm=12.5438, mean=0.0000, std=0.0523
+transformer.h.0.mlp.c_proj.weight: norm=10.5707, mean=0.0000, std=0.0440
+
+Iteration 40000
+transformer.h.0.attn.c_attn.weight: norm=9.2443, mean=-0.0000, std=0.0445
+transformer.h.0.attn.c_proj.weight: norm=3.9993, mean=-0.0000, std=0.0333
+transformer.h.0.mlp.c_fc.weight: norm=13.2397, mean=-0.0000, std=0.0552
+transformer.h.0.mlp.c_proj.weight: norm=12.0384, mean=0.0001, std=0.0502
+
+Iteration 60000
+transformer.h.0.attn.c_attn.weight: norm=9.5836, mean=-0.0001, std=0.0461
+transformer.h.0.attn.c_proj.weight: norm=4.1478, mean=0.0000, std=0.0346
+transformer.h.0.mlp.c_fc.weight: norm=12.9213, mean=-0.0000, std=0.0538
+transformer.h.0.mlp.c_proj.weight: norm=12.0398, mean=0.0002, std=0.0502
+
+Iteration 80000
+transformer.h.0.attn.c_attn.weight: norm=9.4328, mean=-0.0001, std=0.0454
+transformer.h.0.attn.c_proj.weight: norm=4.1212, mean=0.0000, std=0.0343
+transformer.h.0.mlp.c_fc.weight: norm=12.3442, mean=-0.0001, std=0.0514
+transformer.h.0.mlp.c_proj.weight: norm=11.6407, mean=0.0002, std=0.0485
+
+Iteration 100000
+transformer.h.0.attn.c_attn.weight: norm=9.0576, mean=-0.0001, std=0.0436
+transformer.h.0.attn.c_proj.weight: norm=3.9935, mean=0.0000, std=0.0333
+transformer.h.0.mlp.c_fc.weight: norm=11.6222, mean=-0.0001, std=0.0484
+transformer.h.0.mlp.c_proj.weight: norm=11.0024, mean=0.0002, std=0.0458
+
+Iteration 120000
+transformer.h.0.attn.c_attn.weight: norm=8.6219, mean=-0.0001, std=0.0415
+transformer.h.0.attn.c_proj.weight: norm=3.8236, mean=0.0000, std=0.0319
+transformer.h.0.mlp.c_fc.weight: norm=10.8209, mean=-0.0001, std=0.0451
+transformer.h.0.mlp.c_proj.weight: norm=10.1925, mean=0.0002, std=0.0425
+
+Iteration 140000
+transformer.h.0.attn.c_attn.weight: norm=8.1659, mean=-0.0001, std=0.0393
+transformer.h.0.attn.c_proj.weight: norm=3.6383, mean=0.0000, std=0.0303
+transformer.h.0.mlp.c_fc.weight: norm=10.0282, mean=-0.0001, std=0.0418
+transformer.h.0.mlp.c_proj.weight: norm=9.3438, mean=0.0002, std=0.0389
+
+Iteration 160000
+transformer.h.0.attn.c_attn.weight: norm=7.7879, mean=-0.0001, std=0.0375
+transformer.h.0.attn.c_proj.weight: norm=3.4663, mean=0.0000, std=0.0289
+transformer.h.0.mlp.c_fc.weight: norm=9.3263, mean=-0.0001, std=0.0389
+transformer.h.0.mlp.c_proj.weight: norm=8.5797, mean=0.0002, std=0.0357
+
+Iteration 180000
+transformer.h.0.attn.c_attn.weight: norm=7.4909, mean=-0.0001, std=0.0360
+transformer.h.0.attn.c_proj.weight: norm=3.3315, mean=0.0000, std=0.0278
+transformer.h.0.mlp.c_fc.weight: norm=8.7841, mean=-0.0001, std=0.0366
+transformer.h.0.mlp.c_proj.weight: norm=7.9889, mean=0.0002, std=0.0333
+
+Iteration 200000
+transformer.h.0.attn.c_attn.weight: norm=7.2746, mean=-0.0000, std=0.0350
+transformer.h.0.attn.c_proj.weight: norm=3.2337, mean=0.0000, std=0.0269
+transformer.h.0.mlp.c_fc.weight: norm=8.3799, mean=-0.0001, std=0.0349
+transformer.h.0.mlp.c_proj.weight: norm=7.5545, mean=0.0002, std=0.0315
+
