@@ -22,7 +22,7 @@ def parse_args():
     parser.add_argument('--config', type=str, default='1_1_120')
     parser.add_argument('--device', type=str, default='cuda:0')
     parser.add_argument('--checkpoints', type=int, nargs='+', 
-                       default=[5000, 10000, 15000, 30000, 45000, 60000, 75000, 90000,105000,120000,135000,150000])
+                       default=[0,5000, 10000, 20000, 40000, 60000, 80000, 100000, 120000,140000,160000,180000,200000])
     parser.add_argument('--output_dir', type=str, default='analysis_results')
     parser.add_argument('--max_samples', type=int, default=500)
     return parser.parse_args()
