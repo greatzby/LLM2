@@ -1,0 +1,119 @@
+{
+  "0": {
+    "entropy_mean": 6.642157554626465,
+    "top1_prob_mean": 0.01655251532793045,
+    "top5_prob_mean": 0.07557553052902222,
+    "kl_from_uniform_mean": 0.03026759997010231,
+    "effective_choices_mean": 97.74076080322266,
+    "gini_mean": 0.9897688627243042,
+    "max_to_second_ratio_mean": 1.029719352722168
+  },
+  "5000": {
+    "entropy_mean": 0.0442199632525444,
+    "top1_prob_mean": 0.9943981766700745,
+    "top5_prob_mean": 1.0000079870224,
+    "kl_from_uniform_mean": 6.628204822540283,
+    "effective_choices_mean": 1.0114039182662964,
+    "gini_mean": 0.011002717539668083,
+    "max_to_second_ratio_mean": 1116.6964111328125
+  },
+  "10000": {
+    "entropy_mean": 0.2512241303920746,
+    "top1_prob_mean": 0.9479327201843262,
+    "top5_prob_mean": 1.0000061988830566,
+    "kl_from_uniform_mean": 6.421201229095459,
+    "effective_choices_mean": 1.114909291267395,
+    "gini_mean": 0.09072394669055939,
+    "max_to_second_ratio_mean": 75.8923110961914
+  },
+  "20000": {
+    "entropy_mean": 0.18296508491039276,
+    "top1_prob_mean": 0.9669029116630554,
+    "top5_prob_mean": 0.9999917149543762,
+    "kl_from_uniform_mean": 6.489459991455078,
+    "effective_choices_mean": 1.0707404613494873,
+    "gini_mean": 0.05979924276471138,
+    "max_to_second_ratio_mean": 88.0496597290039
+  },
+  "40000": {
+    "entropy_mean": 2.25044584274292,
+    "top1_prob_mean": 0.6034298539161682,
+    "top5_prob_mean": 0.8837254643440247,
+    "kl_from_uniform_mean": 4.4219794273376465,
+    "effective_choices_mean": 2.6648597717285156,
+    "gini_mean": 0.5961005091667175,
+    "max_to_second_ratio_mean": 6.745833396911621
+  },
+  "60000": {
+    "entropy_mean": 1.1343885660171509,
+    "top1_prob_mean": 0.8465763926506042,
+    "top5_prob_mean": 0.9432167410850525,
+    "kl_from_uniform_mean": 5.538036823272705,
+    "effective_choices_mean": 1.4049807786941528,
+    "gini_mean": 0.2763882875442505,
+    "max_to_second_ratio_mean": 31.11769676208496
+  },
+  "80000": {
+    "entropy_mean": 0.6900343298912048,
+    "top1_prob_mean": 0.9178763628005981,
+    "top5_prob_mean": 0.9681652188301086,
+    "kl_from_uniform_mean": 5.982390880584717,
+    "effective_choices_mean": 1.1897289752960205,
+    "gini_mean": 0.15541887283325195,
+    "max_to_second_ratio_mean": 67.74681854248047
+  },
+  "100000": {
+    "entropy_mean": 0.10956460237503052,
+    "top1_prob_mean": 0.9905547499656677,
+    "top5_prob_mean": 0.9963212609291077,
+    "kl_from_uniform_mean": 6.562860488891602,
+    "effective_choices_mean": 1.0191996097564697,
+    "gini_mean": 0.018770283088088036,
+    "max_to_second_ratio_mean": 642.0205078125
+  },
+  "120000": {
+    "entropy_mean": 0.01101756002753973,
+    "top1_prob_mean": 0.999210000038147,
+    "top5_prob_mean": 0.999764621257782,
+    "kl_from_uniform_mean": 6.661407470703125,
+    "effective_choices_mean": 1.001583218574524,
+    "gini_mean": 0.0015780505491420627,
+    "max_to_second_ratio_mean": 10910.392578125
+  },
+  "140000": {
+    "entropy_mean": 0.5140009522438049,
+    "top1_prob_mean": 0.829962968826294,
+    "top5_prob_mean": 0.9999915957450867,
+    "kl_from_uniform_mean": 6.158424377441406,
+    "effective_choices_mean": 1.386816143989563,
+    "gini_mean": 0.2311636358499527,
+    "max_to_second_ratio_mean": 6006.43798828125
+  },
+  "160000": {
+    "entropy_mean": 0.09854212403297424,
+    "top1_prob_mean": 0.9732091426849365,
+    "top5_prob_mean": 1.0000219345092773,
+    "kl_from_uniform_mean": 6.573883056640625,
+    "effective_choices_mean": 1.059586524963379,
+    "gini_mean": 0.03925721347332001,
+    "max_to_second_ratio_mean": 25757.837890625
+  },
+  "180000": {
+    "entropy_mean": 0.00395209202542901,
+    "top1_prob_mean": 0.9988828301429749,
+    "top5_prob_mean": 1.0000015497207642,
+    "kl_from_uniform_mean": 6.668472766876221,
+    "effective_choices_mean": 1.0024586915969849,
+    "gini_mean": 0.0015709875151515007,
+    "max_to_second_ratio_mean": 424048230400.0
+  },
+  "200000": {
+    "entropy_mean": 2.6125119347852888e-06,
+    "top1_prob_mean": 1.0,
+    "top5_prob_mean": 1.000000238418579,
+    "kl_from_uniform_mean": 6.672421932220459,
+    "effective_choices_mean": 1.0,
+    "gini_mean": 0.0,
+    "max_to_second_ratio_mean": 937558867968.0
+  }
+}
