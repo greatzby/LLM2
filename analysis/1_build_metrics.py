@@ -1,48 +1,53 @@
 #!/usr/bin/env python3
 """
-将 logits.npz => distribution_metrics.json / position_sensitivity_results.json / kl_jump.json
-兼容 object-array 存储格式。
+把 logits.npz -> three json files；兼容 object array / 任意形状。
 """
 import numpy as np, json, argparse, os, math
 
-# ---------- helpers ----------
-def entropy(arr):   # arr [..., V]
+def entropy(arr):  # [..., V]
     return -np.sum(arr * np.log2(arr + 1e-12), axis=-1)
 
 def gini(arr):
-    return 1.0 - np.sum(arr ** 2, axis=-1)
+    return 1 - np.sum(arr ** 2, axis=-1)
 
-# ---------- main ----------
+def to_ndarray(x):
+    """object array -> float32 ndarray"""
+    if isinstance(x, np.ndarray) and x.dtype != object:
+        return x
+    return np.array(list(x), dtype=np.float32)
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--logits_npz', required=True)
     ap.add_argument('--outdir', default='analysis/metrics')
-    args = ap.parse_args()
-    os.makedirs(args.outdir, exist_ok=True)
+    args = ap.parse_args(); os.makedirs(args.outdir, exist_ok=True)
 
-    data    = np.load(args.logits_npz, allow_pickle=True)
-    probs_o = data['probs']    # object array len = n_ckpt
-    tgt_o   = data['targets']
-    steps   = data['steps']
+    pack   = np.load(args.logits_npz, allow_pickle=True)
+    probsO, tgtO, steps = pack['probs'], pack['targets'], pack['steps']
 
     global_js, pos_js = {}, {}
 
-    for idx, step in enumerate(steps):
-        # ---- 转成 float32 ndarray, squeeze 掉长度为 1 的时间维 ----
-        p = np.asarray(list(probs_o[idx]), dtype=np.float32) if probs_o.dtype==object else probs_o[idx]
-        t = np.asarray(list(tgt_o[idx]),   dtype=np.int64 ) if tgt_o.dtype  ==object else tgt_o[idx]
-        if p.ndim == 3 and p.shape[1] == 1:     # (N,1,V) -> (N,V)
-            p = p.squeeze(1); t = t.squeeze(1)
+    for i, step in enumerate(steps):
+        p = to_ndarray(probsO[i])   # (N,T?,V)
+        t = to_ndarray(tgtO[i])     # (N,T?)
+        # 若 p 为 (N,1,V) 则 squeeze 掉第 1 维
+        if p.ndim == 3 and p.shape[1] == 1:
+            p = p[:, 0, :]
+            t = t[:, 0]
+        # 现在形状 (N,T,V)
+        if p.ndim == 2:  # T==1 的特殊情况
+            p = p[:, None, :]
+            t = t[:, None]
 
-        # --------- 全局指标 ---------
+        # -------- 全局指标 --------
         ent_mean = float(entropy(p).mean())
         top1     = float(p.max(-1).mean())
-        top5     = float(np.sort(p, axis=-1)[:, -5:].sum(-1).mean())
+        top5     = float(np.sort(p, axis=-1)[:, :, -5:].sum(-1).mean())
         kl_uni   = float((-entropy(p) + math.log2(p.shape[-1])).mean())
         eff      = float((1 / (p ** 2).sum(-1)).mean())
         g        = float(gini(p).mean())
         m2s      = float((p.max(-1) /
-                          (np.partition(p, -2, axis=-1)[:, -2] + 1e-12)).mean())
+                          (np.partition(p, -2, axis=-1)[:, :, -2] + 1e-12)).mean())
 
         global_js[int(step)] = dict(
             entropy_mean=ent_mean,
@@ -54,24 +59,24 @@ def main():
             max_to_second_ratio_mean=m2s
         )
 
-        # --------- position 级 ---------
-        ent_pos = entropy(p).mean(0)                    # [T-1]
-        acc_pos = (p.argmax(-1) == t).mean(0)           # [T-1]
-        for pos_id, (e, a) in enumerate(zip(ent_pos, acc_pos)):
-            d = pos_js.setdefault(f"position_{pos_id+3}", dict(entropy={}, accuracy={}))
+        # -------- 位置级 --------
+        ent_pos = entropy(p).mean(0)                # (T,)
+        acc_pos = (p.argmax(-1) == t).mean(0)       # (T,)
+        for j, (e, a) in enumerate(zip(ent_pos, acc_pos)):
+            d = pos_js.setdefault(f"position_{j+3}", dict(entropy={}, accuracy={}))
             d["entropy"][int(step)]  = float(e)
             d["accuracy"][int(step)] = float(a)
 
-    # --------- ΔKL( t｜t-1 ) ---------
-    step_sorted = sorted(global_js)
-    kl_vals = [global_js[s]['kl_from_uniform_mean'] for s in map(str, step_sorted)]
-    kl_jump = {step_sorted[i]: float(kl_vals[i] - kl_vals[i-1])
-               for i in range(1, len(step_sorted))}
+    # -------- ΔKL --------
+    st_sorted = sorted(global_js)
+    kl_vals   = [global_js[s]['kl_from_uniform_mean'] for s in st_sorted]
+    kl_jump   = {st_sorted[i]: float(kl_vals[i]-kl_vals[i-1])
+                 for i in range(1,len(st_sorted))}
 
     json.dump(global_js, open(f"{args.outdir}/distribution_metrics.json", 'w'), indent=2)
     json.dump(pos_js,    open(f"{args.outdir}/position_sensitivity_results.json", 'w'), indent=2)
     json.dump(kl_jump,   open(f"{args.outdir}/kl_jump.json", 'w'), indent=2)
-    print("==> metrics saved to", args.outdir)
+    print("metrics saved to", args.outdir)
 
 if __name__ == "__main__":
     main()
